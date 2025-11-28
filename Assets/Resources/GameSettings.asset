@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5f363671ab66a4ba1807f3aceb1170, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  platformCount: 8
+  eventDurationHours: 8
+  matchmakingMaxPlayers: 100
+  matchmakingDuration: 3
+  matchmakingStartDelay: 0.5
+  matchmakingDelayBeforeStart: 0.5
+  matchmakingPopSoundInterval: 20
+  victoryRewardAmount: 1453
+  victoryRewardCountDuration: 1
+  tutorialTapDelay: 2
+  gameStartDelay: 1
+  gameStartCameraOffset: -500
+  eliminationRate: 0.3
+  displayAvatarCount: 12
+  avatarAnimationConfig: {fileID: 11400000, guid: 336af52cdc5fe8d4bb88097acfc1d02e, type: 2}
+  avatarJumpDelay: 0.15
+  jumpDuration: 0.65
+  jumpHeight: 175
+  fallDuration: 1.2
+  fallDistanceBelowScreen: 1500
+  cameraFollowDuration: 1
+  cameraVerticalOffset: -300

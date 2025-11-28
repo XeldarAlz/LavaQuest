@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d781fa86a1ba41e7a9fe9c1074f42228, type: 3}
+  m_Name: AvatarAnimationConfig
+  m_EditorClassIdentifier: 
+  squashAmount: 0.8
+  stretchAmount: 1.2
+  anticipationDuration: 0.1
+  landSquashDuration: 0.15
+  jumpUpRatio: 0.45
+  jumpDownRatio: 0.55
+  jumpStretchRatio: 0.5
+  jumpLandStartRatio: 0.7
+  fallShakeDuration: 0.2
+  fallShakeIntensity: 20
+  fallPrepDuration: 0.15
+  fallPrepHeight: 50
+  fallPrepSquash: 0.7
+  fallWobbleRange: 100
+  fallScaleEnd: 0.3
+  fallFadeDelay: 0.35
+  idleBounceMin: 8
+  idleBounceMax: 15
+  idleDurationMin: 0.6
+  idleDurationMax: 0.9
+  idleScaleAmount: 1.05
+  shakeVibrato: 20
+  shakeRandomness: 90
+  shakeSnapping: 0
+  shakeFadeOut: 1
